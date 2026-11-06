@@ -1,0 +1,225 @@
+@media (max-width: 1000px) {
+    .hero {
+        gap: 6%;
+    }
+    .hero h1 {
+        font-size: 69px;
+    }
+    .method {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+    .method > div {
+        grid-column: 1/-1;
+    }
+    .auth-shell {
+        gap: 45px;
+    }
+    .result-row {
+        grid-template-columns: 120px minmax(0, 1fr);
+        gap: 25px;
+    }
+}
+@media (max-width: 720px) {
+    .site-header {
+        padding: 24px 6%;
+        align-items: start;
+    }
+    .site-header nav {
+        gap: 16px;
+        font-size: 10px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .brand {
+        font-size: 25px;
+    }
+    .brand > small {
+        font-size: 6px;
+        letter-spacing: 0.13em;
+    }
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 45px 6%;
+        gap: 40px;
+    }
+    .hero h1 {
+        font-size: 76px;
+    }
+    .hero-labels {
+        font-size: 7px;
+        gap: 25px;
+    }
+    .scan-panel > h2 {
+        margin: 25px 23px 20px;
+    }
+    .scan-panel > p {
+        margin: 0 23px;
+    }
+    .scan-panel form {
+        padding: 25px 23px;
+    }
+    .scan-limits {
+        padding: 20px 23px;
+    }
+    .method {
+        padding: 35px 6%;
+        gap: 25px;
+    }
+    .method article h3 {
+        font-size: 15px;
+    }
+    .method article p {
+        font-size: 10px;
+    }
+    footer {
+        padding: 28px 6%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    footer small {
+        width: 100%;
+    }
+    .auth-shell {
+        padding: 45px 6%;
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+    .auth-shell h1 {
+        font-size: 44px;
+    }
+    .workspace {
+        padding: 40px 6%;
+    }
+    .section-heading {
+        align-items: start;
+        flex-direction: column;
+    }
+    .section-heading h1 {
+        font-size: 48px;
+    }
+    .summary {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .summary > div {
+        padding: 22px;
+    }
+    .summary > div:nth-child(2) {
+        border-right: 0;
+    }
+    .summary > div:nth-child(3) {
+        padding-left: 0;
+        border-top: 1px solid var(--line);
+    }
+    .summary > div:nth-child(4) {
+        border-top: 1px solid var(--line);
+    }
+    .summary strong {
+        font-size: 42px;
+    }
+    .filter-bar {
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+    .filter-bar label {
+        max-width: none;
+        min-width: 120px;
+    }
+    .filter-bar .button {
+        align-self: stretch;
+    }
+    .table-scroll table {
+        min-width: 760px;
+    }
+    .result-row {
+        grid-template-columns: 90px minmax(0, 1fr);
+        gap: 18px;
+    }
+    .result-status strong {
+        font-size: 35px;
+    }
+    .result-status .badge {
+        white-space: normal;
+        font-size: 8px;
+    }
+    .result-body h2 {
+        font-size: 12px;
+    }
+    .result-body > p {
+        font-size: 9px;
+    }
+    .result-body > p span {
+        margin: 0 3px;
+    }
+    .result-body li {
+        padding: 9px 12px;
+        gap: 12px;
+    }
+    .notice {
+        margin: 20px 6%;
+    }
+}
+@media (max-width: 430px) {
+    .site-header nav {
+        max-width: 175px;
+        gap: 12px;
+    }
+    .site-header nav > a:first-child {
+        display: none;
+    }
+    .hero h1 {
+        font-size: 69px;
+    }
+    .method {
+        grid-template-columns: 1fr;
+    }
+    .method > div {
+        grid-column: 1;
+    }
+    .method article {
+        border-top: 1px solid var(--line);
+        padding-top: 20px;
+    }
+    .method h3 {
+        margin: 15px 0 10px;
+    }
+    .method article p {
+        font-size: 12px;
+    }
+    .panel-top {
+        font-size: 8px;
+        padding: 16px 20px;
+    }
+    .scan-panel h2 {
+        font-size: 28px;
+    }
+    .result-row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .result-status {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .result-status strong {
+        margin: 0;
+    }
+    .result-status small {
+        margin: 0;
+    }
+    .result-body h2 {
+        font-size: 12px;
+    }
+    .result-body > p {
+        font-size: 10px;
+    }
+    .filter-bar label {
+        flex-basis: 100%;
+    }
+    .filter-bar .text-button {
+        margin: 0;
+        align-self: center;
+    }
+}

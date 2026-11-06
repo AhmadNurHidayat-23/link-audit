@@ -1,0 +1,130 @@
+
+.scan-panel input {
+    font-family: Consolas, monospace;
+    font-size: 13px;
+}
+.scan-panel .button {
+    justify-content: center;
+}
+.scan-limits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    border-top: 1px solid #d9e2e9;
+    padding: 20px 30px;
+    font:
+        9px Consolas,
+        monospace;
+    color: #83909c;
+}
+.method {
+    border-top: 1px solid var(--line);
+    padding: 45px 5% 55px;
+    display: grid;
+    grid-template-columns: 1.3fr repeat(3, 1fr);
+    gap: 45px;
+}
+.method .eyebrow {
+    font-size: 8px;
+}
+.method h2 {
+    font-size: 30px;
+}
+.method b {
+    font:
+        25px Consolas,
+        monospace;
+    color: #a6b6c9;
+    font-weight: 400;
+}
+.method h3 {
+    margin: 20px 0 15px;
+}
+.method p {
+    font-size: 11px;
+    color: var(--muted);
+}
+footer {
+    padding: 28px 5%;
+    border-top: 1px solid var(--line);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+footer .small {
+    font-size: 24px;
+}
+footer p {
+    font-size: 11px;
+}
+.notice {
+    padding: 18px 22px;
+    margin: 20px 5%;
+    background: #edf1f6;
+    border: 1px solid #c3d0df;
+    font-size: 12px;
+    color: #65768c;
+}
+.notice.error {
+    background: #fff0e9;
+    border-color: #e4b7a6;
+    color: #a24931;
+}
+.notice.success {
+    background: #eaf1e5;
+    color: #4c7146;
+    border-color: #c9d9bd;
+}
+.notice ul {
+    margin: 10px 0 0;
+    padding-left: 20px;
+}
+.auth-shell {
+    padding: 70px 5%;
+    max-width: 1120px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px;
+}
+.auth-shell h1 {
+    font-size: 55px;
+}
+.auth-shell p {
+    font-size: 13px;
+    color: var(--muted);
+    max-width: 380px;
+    margin-top: 25px;
+}
+.auth-shell form {
+    display: grid;
+    gap: 22px;
+}
+.auth-shell .button {
+    justify-content: center;
+}
+.auth-shell .text-button {
+    text-align: center;
+}
+.empty {
+    padding: 60px 25px;
+    border: 1px solid var(--line);
+    text-align: center;
+}
+.empty > span {
+    font:
+        40px Consolas,
+        monospace;
+    color: var(--blue);
+}
+.empty h2 {
+    font-size: 30px;
+    margin: 15px 0;
+}
+.empty p {
+    color: var(--muted);
+    font-size: 12px;
+    margin: 20px auto;
+    max-width: 440px;
+}
